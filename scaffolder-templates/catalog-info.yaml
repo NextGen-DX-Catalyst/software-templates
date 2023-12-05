@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: software-templates
+  description: A collection of backstage scaffolding templates
+spec:
+  targets:
+    - ./scaffolder-templates/docs-template/template.yaml
