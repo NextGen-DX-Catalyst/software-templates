@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./scaffolder-templates/docs-template/template.yaml
+    - ./scaffolder-templates/node-js-microservice/template.yaml
