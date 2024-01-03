@@ -7,3 +7,4 @@ spec:
   targets:
     - ./scaffolder-templates/docs-template/template.yaml
     - ./scaffolder-templates/node-js-microservice/template.yaml
+    - ./scaffolder-templates/material-ui-frontend/template.yaml
