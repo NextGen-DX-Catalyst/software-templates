@@ -8,3 +8,6 @@ spec:
     - ./scaffolder-templates/docs-template/template.yaml
     - ./scaffolder-templates/node-js-microservice/template.yaml
     - ./scaffolder-templates/material-ui-frontend/template.yaml
+    - ./scaffolder-templates/compliance-and-reporting/template.yaml
+    - ./scaffolder-templates/custom-banking-integration/template.yaml
+    - ./scaffolder-templates/fdx-api-banking-integration/template.yaml
