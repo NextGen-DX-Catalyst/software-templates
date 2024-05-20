@@ -47,7 +47,10 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
-
+            allowedOrganizations:
+              - NextGen-DX-Catalyst
+            allowedOwners:
+              - NextGen-DX-Catalyst
   # This template is meant to be used on top of an existing template.
   # By adding the following and fetching from an absolute URL you can
   # add in the docs template
@@ -57,6 +60,8 @@ spec:
       action: fetch:template
       input:
         url: ./skeleton
+        copyWithoutTemplating:
+          - .github/workflows/*
         values:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
@@ -70,6 +75,7 @@ spec:
         allowedHosts: ["github.com"]
         description: This is ${{ parameters.name }}
         repoUrl: ${{ parameters.repoUrl }}
+        repoVisibility: public
 
     - id: register
       name: Register
