@@ -3,6 +3,18 @@ site_description: ${{values.description | dump}}
 
 nav:
   - Introduction: index.md
+  - templates:
+    - api-quickstart:
+      - guide-quickstart: api-quickstart/guide-quickstart.md
+      - template-api-quickstart: api-quickstart/template-api-quickstart.md
+    - concept:
+      - guide-concept: concept/guide-concept.md
+      - process-concept: concept/process-concept.md
+      - resources-concept: concept/resources-concept.md
+      - template-concept: concept/template-concept.md
+    - tutorial:
+      - guide-tutorial: tutorial/guide-tutorial.md
+      - template-tutorial: tutorial/template-tutorial.md
 
 plugins:
   - techdocs-core
